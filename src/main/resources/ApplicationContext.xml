@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+
+<beans>
+
+	<bean id="product1" class="com.rakesh.springcore.ProductImpl">
+		<constructor-arg>
+			<value>Samsung S23</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="product2" class="com.rakesh.springcore.ProductImpl">
+		<property name="product">
+			<value>Iphone 16</value>
+		</property>
+	</bean>
+
+</beans>
+
